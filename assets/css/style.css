@@ -278,7 +278,7 @@ button, input {
 	position:relative;
 	font-size:16px;
 	display:inline-block;
-	margin:20px 20px 20px 15px;
+	margin:20px 20px 10px 15px;
 	padding:20px;
 	border-radius:10px;
 	height:220px;
@@ -286,6 +286,9 @@ button, input {
 	background:var(--background-lightest);
 	box-shadow:var(--shadow-dark);
 	width:calc(100% / 3 - 40px - 40px);
+}
+.project-wrapper:last-of-type {
+	margin:20px 20px 20px 15px;
 }
 .project-wrapper h1 {
 	margin:0;
