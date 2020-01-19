@@ -1,0 +1,75 @@
+@media screen and (max-width:980px) {
+	.profile-icon-wrapper {
+		width:180px;
+		height:40px;
+	}
+	.profile-icon-wrapper.website {
+		bottom:80px;
+	}
+	.profile-icon-wrapper span {
+		font-size:16px;
+		line-height:40px;
+		left:45px;
+	}
+	.profile-icon-wrapper svg {
+		top:8px;
+		width:24px;
+		height:24px
+	}
+	.project-wrapper {
+		width:calc(100% / 2 - 40px - 40px);
+	}
+}
+@media screen and (max-width:750px) {
+	.profile-about-wrapper {
+		height:calc(100% - 40px - 60px);
+		width:calc(100% - 150px);
+	}
+	.profile-icon-wrapper.website {
+		bottom:20px;
+		right:210px;
+	}
+}
+@media screen and (max-width:660px) {
+	.profile-image-wrapper {
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:60px;
+		left:calc(50% - 220px / 2);
+		border-width:10px;
+		border-color:var(--background-medium);
+	}
+	.profile-details-wrapper {
+		left:40px;
+		width:calc(100% - 80px);
+		height:calc(100% - 80px);
+	}
+	.profile-icon-wrapper.website {
+		left:20px;
+	}
+	.profile-icon-wrapper.github {
+		right:20px;
+	}
+}
+@media screen and (max-width:600px) {
+	.project-wrapper {
+		width:calc(100% - 40px - 40px);
+	}
+}
+@media screen and (max-width:500px) {
+	.profile-wrapper {
+		height:460px;
+	}
+	.profile-icon-wrapper.website {
+		width:200px;
+		margin:0;
+		bottom:80px;
+		left:calc(50% - 200px / 2);
+	}
+	.profile-icon-wrapper.github {
+		width:200px;
+		margin:0;
+		left:calc(50% - 200px / 2);
+	}
+}
