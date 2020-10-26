@@ -1,4 +1,4 @@
-@media screen and (max-width:980px) {
+@media screen and (max-width:1040px) {
 	.profile-icon-wrapper {
 		width:180px;
 		height:40px;
@@ -20,7 +20,7 @@
 		width:calc(100% / 2 - 40px - 40px);
 	}
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:910px) {
 	.profile-about-wrapper {
 		height:calc(100% - 40px - 60px);
 		width:calc(100% - 150px);

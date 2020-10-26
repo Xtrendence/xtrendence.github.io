@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 	});
 
 	function adjustToScreen() {
-		if(window.innerWidth <= 810) {
+		if(window.innerWidth <= 910) {
 			profileLabelsContainer.style.display = "block";
 			profileLabelsWrapper.style.display = "none";
 			profileLabelsContainer.innerHTML = profileLabelsWrapper.innerHTML;

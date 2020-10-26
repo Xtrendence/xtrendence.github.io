@@ -9,6 +9,7 @@
 	--accent-light:rgb(0,175,255);
 	--accent-contrast:rgb(245,245,245);
 	--accent-alt:rgb(30,165,85);
+	--accent-faint:rgb(140,170,240);
 	--shadow-dark:0 2px 10px rgba(40,40,40,0.3);
 	--shadow-darker:0 6px 10px rgba(40,40,40,0.4);
 	--font-family:"Helvetica Neue", "Lucida Grande", "Arial", "Verdana", "Tahoma", sans-serif;
@@ -151,6 +152,18 @@ button, input {
 	padding:0 10px 0 10px;
 	border-radius:20px;
 	background:var(--accent-light);
+	color:var(--accent-contrast);
+	box-shadow:var(--shadow-dark);
+}
+.profile-labels-wrapper .framework, .profile-labels-container .framework {
+	cursor:default;
+	display:inline-block;
+	font-size:16px;
+	margin:0 10px 10px 0;
+	height:30px;
+	padding:0 10px 0 10px;
+	border-radius:20px;
+	background:var(--accent-faint);
 	color:var(--accent-contrast);
 	box-shadow:var(--shadow-dark);
 }
